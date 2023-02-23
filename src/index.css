@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 ;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+  }
+  h1, h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+    width: 20%;
+  }
+  input {
+    outline: none;
+    font-family: inherit;
+  }
+  button {
+    border: none;
+  }

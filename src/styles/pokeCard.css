@@ -1,0 +1,169 @@
+.poke__card-container {
+    width: 350px;
+    padding: 1em 1em;
+    height: 530px;
+    border-radius: 1em;
+}
+.pokeCard__header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.pokeCard__img {
+    width: 68%;
+
+}
+.poke__name{
+    padding-top: 1em;
+}
+
+.pokeCard__info {
+    margin-top: -50px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.907);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+}
+.hr{
+    color: #4b4a4a;
+    width: 100%;
+}
+
+.pokeCard__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+.pokeCard__stats{
+    color: #4F4F4F;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    gap: 3em 5em;
+    justify-self: center;
+}
+.stats__span1{
+    color: #797575;
+    font-size: 80%;
+}
+.stats__span2{
+    color: #000000;
+    font-size: 120%;
+}
+.grass { 
+    background: linear-gradient(-90deg, rgb(51, 153, 88), rgb(104, 208, 20));
+}
+.pokeCard__namegrass{
+    color: rgb(51, 153, 88);
+}
+.fire { 
+    background: linear-gradient(-90deg, rgb(218, 81, 27), rgb(224, 224, 19));
+}
+.pokeCard__namefire{
+    color:rgb(218, 81, 27) ;
+}
+.water { 
+    background: linear-gradient(-90deg, rgb(9, 42, 148),rgb(38, 146, 193));
+}
+.pokeCard__namewater{
+    color:  rgb(9, 42, 148);
+}
+
+.bug { 
+    background: linear-gradient(-90deg, rgb(123, 141, 8), rgb(83, 95, 5));
+}
+.pokeCard__namebug{
+    color: rgb(123, 141, 8);
+}
+.normal { 
+    background: linear-gradient(-90deg, rgb(95, 49, 74), rgb(178, 47, 47));
+}
+.pokeCard__namenormal{
+    color:rgb(95, 49, 74) ;
+}
+.fighting { 
+    background: linear-gradient(-90deg, rgb(149, 46, 5), rgb(221, 105, 11));
+}
+.pokeCard__namefighting{
+    color:rgb(149, 46, 5);
+}
+.flying { 
+    background: linear-gradient(-90deg, rgb(194, 244, 238), rgb(47, 108, 96));
+}
+.pokeCard__nameflying{
+    color: rgb(194, 244, 238) ;
+}
+.poison { 
+    background: linear-gradient(-90deg, rgb(42, 7, 71), rgb(195, 115, 213));
+}
+.pokeCard__namepoison{
+    color: rgb(42, 7, 71) ;
+}
+.ground { 
+    background: linear-gradient(-90deg, rgb(156, 124, 86), rgb(122, 80, 1));
+}
+.pokeCard__nameground{
+    color:rgb(156, 124, 86) ;
+}
+.rock { 
+    background: linear-gradient(-90deg, rgb(202, 202, 202), rgb(57, 55, 53));
+}
+.pokeCard__namerock{
+    color: rgb(202, 202, 202);
+    
+}
+.ghost { 
+    background: linear-gradient(-90deg, rgb(171, 169, 218), rgb(7, 10, 40));
+}
+.pokeCard__nameghost{
+    color:rgb(171, 169, 218) ;
+}
+.steel { 
+    background: linear-gradient(-90deg, rgb(156, 156, 156), rgb(244, 244, 246));
+}
+.pokeCard__namesteel{
+    color:  rgb(156, 156, 156) ;
+}
+.electric { 
+    background: linear-gradient(-90deg, rgb(255, 236, 93), rgb(198, 182, 7));
+}
+.pokeCard__nameelectric{
+    color: rgb(255, 236, 93);
+}
+.psychic { 
+    background: linear-gradient(-90deg, rgb(90, 83, 33), rgb(213, 206, 124));
+}
+.pokeCard__namepsychic{
+    color:rgb(90, 83, 33) ;
+}
+.ice { 
+    background: linear-gradient(-90deg, rgb(96, 204, 246), rgb(174, 180, 181));
+}
+.pokeCard__nameice{
+    color: rgb(96, 204, 246) ;
+}
+.dragon { 
+    background: linear-gradient(-90deg, rgb(60, 250, 237), rgb(55, 117, 131));
+}
+.pokeCard__namedragon{
+    color: rgb(60, 250, 237);
+}
+.dark { 
+    background: linear-gradient(-90deg, rgb(0, 0, 0), rgb(65, 68, 74));
+}
+.pokeCard__namedark{
+    color: rgb(0, 0, 0);
+}
+.fairy { 
+    background: linear-gradient(-90deg, rgb(210, 99, 221), rgb(91, 22, 114));
+}
+.pokeCard__namefairy{
+    color:rgb(210, 99, 221) ;
+}

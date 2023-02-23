@@ -1,0 +1,137 @@
+.title__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    padding: 0 2em;
+    background-image: url(../14726.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+}
+
+.title__img {
+    width: 60%;
+    max-height: 100px;
+}
+
+.container__home {
+    background-image: url(../wp9382706.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: top;
+    height: 92vh;
+    margin: auto;
+    max-width: 2500px;
+    padding: 0em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.home__hello {
+    text-align: center;
+    margin-top: -8em;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2em;
+    border-right: 0.15em solid #71c8e000;
+    animation: typing 4s steps(38) 1s 1 normal both;
+    color: rgb(53, 0, 84);
+    text-shadow: 0em 0em 0.2em rgb(255, 255, 255), 0em 0em 0.5em rgb(255, 0, 187), 0em 0em 0.1em rgb(255, 0, 187), 0em 0em 0.1em rgb(255, 0, 187);
+}
+
+.home__p {
+    text-align: center;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1em;
+    border-right: 0.15em solid #71c8e000;
+    animation: typing 4s steps(60) 3s 1 normal both;
+    color: rgb(36, 13, 53);
+    text-shadow: 0em 0em 0.2em rgb(255, 255, 255), 0em 0em 0.5em rgb(255, 0, 187), 0em 0em 0.1em rgb(255, 0, 187), 0em 0em 0.1em rgb(255, 0, 187);
+}
+.home__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home__input{
+    background-color: rgba(18, 9, 29, 0.371);
+    color: rgb(195, 231, 246);
+    text-shadow: 0em 0em 0.5em rgb(0, 0, 0), 0em 0em 0.4em rgb(41, 220, 244),0em 0em 0.2em rgb(41, 220, 244),0em 0em 0.1em rgb(41, 220, 244), 0em 0em 0.5em rgb(0, 0, 0);
+    text-align: center;
+    border-color: rgba(21, 124, 134, 0.72);
+    box-shadow: 0em 0em 0.6em 0.1em rgb(100, 221, 237);
+}
+.home__button{
+    font-size: 1.3em;
+    background-color: rgba(40, 15, 70, 0.421);
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0em 0.5em rgb(0, 0, 0), 0em 0em 0.4em rgb(234, 41, 244),0em 0em 0.2em rgb(244, 41, 217),0em 0em 0.1em rgb(200, 41, 244), 0em 0em 0.5em rgb(0, 0, 0);
+    text-align: center;
+    border-color: rgba(21, 124, 134, 0.72);
+    box-shadow: 0em 0em 0.6em 0.1em rgb(255, 125, 246),0em 0em 0.6em 0.1em rgb(35, 8, 33);
+    cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+    .title__home {
+        max-height: 160px;
+
+    }
+
+    .title__img {
+        max-height: 160px;
+        width: 40%;
+
+    }
+
+    .container__home {
+        background-image: url(../thumb-1920-613933.jpg);
+        background-position: center;
+    }
+
+    .home__hello {
+        margin-top: -5em;
+        font-size: 5em;
+        color: rgba(255, 187, 0, 0.99);
+        text-shadow: 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em 0em 0.5em rgb(0, 0, 0);
+    }
+    .home__p {
+        font-size: 2.5em;
+        animation: typing 4s steps(60) 3s 1 normal both;
+        color: rgba(255, 203, 62, 0.99);
+        text-shadow: 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em 0em 0.5em rgb(0, 0, 0);
+    
+    }
+    .home__input{
+        font-size: 1.8em;
+    }
+    .home__button{
+        font-weight: 700;
+        font-size: 2.4em;
+        background-color: rgba(50, 154, 223, 0.421);
+        color: rgba(6, 0, 90, 0.99);
+        text-shadow: 0em -0em 0.1em rgb(4, 155, 255), 0em -0em 0.1em rgb(4, 255, 180), 0em -0em 0.1em rgb(4, 121, 255), 0em -0em 0.1em rgb(4, 29, 255), 0em -0em 0.1em rgb(4, 113, 255), 0em 0em 0.5em rgb(0, 0, 0);
+        text-align: center;
+        box-shadow: 0em 0em 0.6em 0.1em rgb(5, 213, 255),0em 0em 0.6em 0.1em rgb(0, 0, 0);
+    }
+    
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
